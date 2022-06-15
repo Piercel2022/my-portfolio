@@ -1,5 +1,5 @@
 ## Description of the project
-For this milestone of the portfolio website, we will implement the mobile menu 
+For this milestone of the portfolio website, we will implement the popup window when the user want to see the projects
 
 ## Built With
 
