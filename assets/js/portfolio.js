@@ -1,47 +1,64 @@
 /** Create data object */
+const emptyString = ' ';
 const projects = [{
   name: 'Tonic',
+  colorTitle: '#091E42',
   details: ['CANOPY', 'Back End Dev', '2019'],
   smallDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
   bigDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
   imageUrlMobile: 'assets/images/pic1.png',
   imageUrlDesktop: 'assets/images/image_project1.png',
+  popupImageUrlMobile: 'assets/images/popup-project1-mobile.png',
+  popupImageUrlDesktop: 'assets/images/popup-project1-desk.png',
+  technologiesPopup: ['html', 'css', 'javaScript', 'ES6', 'WebPack', ' Linters'],
   technologies: ['html', 'css', 'javaScript'],
-  linkLive: '#',
-  linkSource: '#',
+  linkLive: 'https://piercel2022.github.io/TONIC/',
+  linkSource: 'https://github.com/piercel2022/TONIC.git/',
 },
 {
   name: 'Multi-Post Stories',
+  colorTitle: '#091E42',
   details: ['CANOPY', 'Full Stack Dev', '2022'],
   smallDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required. ',
   bigDescription: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car. ',
   imageUrlMobile: 'assets/images/project2.png',
   imageUrlDesktop: 'assets/images/image_project2.png',
+  popupImageUrlMobile: 'assets/images/popup-project1-mobile.png',
+  popupImageUrlDesktop: 'assets/images/image_project2.png',
+  technologiesPopup: ['html', 'css', 'javaScript', 'ES6', 'WebPack', ' Git'],
   technologies: ['html', 'css', 'javaScript'],
-  linkLive: '#',
-  linkSource: '#',
+  linkLive: 'https://piercel2022.github.io/MULTI-POST/',
+  linkSource: 'https://github.com/Piercel2022/MULTI-POST.git',
 },
 {
   name: 'FACEBOOK 360',
+  colorTitle: '#091E42',
   details: ['FACEBOOK', 'Full Stack Dev', '2022'],
   smallDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
   bigDescription: 'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
   imageUrlMobile: 'assets/images/project3.png',
   imageUrlDesktop: 'assets/images/image_project3.png',
+  popupImageUrlMobile: 'assets/images/popup-project1-mobile.png',
+  popupImageUrlDesktop: 'assets/images/image_project3.png',
+  technologiesPopup: ['html', 'css', 'javaScript', 'ES6', 'WebPack'],
   technologies: ['html', 'Ruby On Rails', 'css', 'javaScript'],
-  linkLive: '#',
-  linkSource: '#',
+  linkLive: 'https://piercel2022.github.io/TONIC',
+  linkSource: 'https://github.com/piercel2022/TONIC.git',
 },
 {
   name: 'Multi-Post Stories',
+  colorTitle: '#091E42',
   details: ['CANOPY', 'Full Stack Dev', '2022'],
   smallDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
   bigDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
   imageUrlMobile: 'assets/images/project4.png',
   imageUrlDesktop: 'assets/images/image_project4.png',
+  popupImageUrlMobile: 'assets/images/project4.png',
+  popupImageUrlDesktop: 'assets/images/project4.png',
+  technologiesPopup: ['html', 'css', 'javaScript', 'ES6', 'WebPack', ' Linters'],
   technologies: ['html', 'Ruby On Rails', 'CSS', 'JavaScript'],
-  linkLive: '#',
-  linkSource: '#',
+  linkLive: 'https://piercel2022.github.io/MULTI-POST',
+  linkSource: 'https://github.com/Piercel2022/MULTI-POST.git',
 }];
 
 /** Create data object end */
@@ -182,7 +199,7 @@ function displayProjectDescriptionPopup(value) {
                                                    </ul>
                                                </div>
                                                <div class="tags-buttons">
-                                                   <a href="${projects[value].linkLive}" class="btn-see-project">See live <i class="fa fa-rss"></i></a>
+                                                   <a href="${projects[value].linkLive}" class="btn-see-project">See live${emptyString.repeat(2)}<img src="assets/images/Icon.svg"></a>  ${emptyString.repeat(3)} 
                                                    <a href="${projects[value].linkSource}" class="btn-see-project">See source <i class="fa fa-github"></i></a>
                                                </div>
                                            </div>
