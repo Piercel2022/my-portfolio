@@ -492,5 +492,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piercel2022/portfolio-popup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Piercel2022/portfolio-popup/issues"
+  },
+  "homepage": "https://github.com/Piercel2022/portfolio-popup#readme"
 }
