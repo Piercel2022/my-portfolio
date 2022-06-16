@@ -1,4 +1,5 @@
 /** Create data object */
+const emptyString = ' ';
 const projects = [{
   name: 'Tonic',
   colorTitle: '#091E42',
@@ -198,7 +199,7 @@ function displayProjectDescriptionPopup(value) {
                                                    </ul>
                                                </div>
                                                <div class="tags-buttons">
-                                                   <a href="${projects[value].linkLive}" class="btn-see-project">See live <i class="fa fa-rss"></i></a>
+                                                   <a href="${projects[value].linkLive}" class="btn-see-project">See live${emptyString.repeat(2)}<img src="assets/images/Icon.svg"></a>  ${emptyString.repeat(3)} 
                                                    <a href="${projects[value].linkSource}" class="btn-see-project">See source <i class="fa fa-github"></i></a>
                                                </div>
                                            </div>
