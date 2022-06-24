@@ -171,7 +171,7 @@
     "globby": "^11.1.0",
     "globjoin": "^0.1.4",
     "gonzales-pe": "^4.3.0",
-    "got": "^9.6.0",
+    "got": "^11.8.5",
     "graceful-fs": "^4.2.10",
     "has-bigints": "^1.0.2",
     "har-schema": "^2.0.0",
